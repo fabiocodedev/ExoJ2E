@@ -1,0 +1,5 @@
+<c:import url="header+footer/header.jsp"></c:import>
+
+<div style="background-color:green">HELLO</div>
+
+<c:import url="header+footer/footer.jsp"></c:import>

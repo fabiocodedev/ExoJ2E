@@ -1,0 +1,12 @@
+<c:import url="navbar/header.jsp"></c:import>
+
+<div class="container">
+
+	<h1>JE SUIS HOME !!!</h1>
+	
+	<img alt="logo" src="resources/img/logo1.png">
+
+
+</div>
+
+<c:import url="navbar/footer.jsp"></c:import>

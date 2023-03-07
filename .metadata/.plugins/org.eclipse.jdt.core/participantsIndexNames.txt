@@ -1,0 +1,19 @@
+INDEX VERSION 1.131
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2302427899.index
+\LaCleanSneak\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1886831117.index
+\LaCleanSneak\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2186769939.index
+\LaCleanSneak\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2204730477.index
+\j2e\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1888353654.index
+\j2e\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3792518356.index
+\LaCleanSneak\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\748879355.index
+\j2e\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\406559631.index
+\test\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3458455286.index
+\j2e\src\main\java

@@ -1,0 +1,12 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:import url="navbar/header.jsp"></c:import>
+
+<div class="container">
+
+	JE SUIS HOME !!!
+	
+	<img alt="logo" src="img\logo1.png">
+
+</div>
+
+<c:import url="navbar/footer.jsp"></c:import>
