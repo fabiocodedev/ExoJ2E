@@ -1,0 +1,86 @@
+package Controler;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.security.crypto.bcrypt.BCrypt;
+
+import Dao.UserDao;
+import Model.User;
+
+
+/**
+ * Servlet implementation class AddUser
+ */
+@WebServlet("/addUser")
+public class AddUser extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public AddUser() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		request.getRequestDispatcher("view/user/addUser.jsp").forward(request, response);
+	}
+	
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println(request.getParameter("adresse"));
+		
+		// TODO Auto-generated method stub
+		
+//		User user = new User(request.getParameter("nom"),request.getParameter("prenom"),request.getParameter("adresse"),
+//				request.getParameter("telephone"),request.getParameter("email"),request.getParameter("mdp"));
+		
+		// CRYPTAGE DU MDP --------------------------------
+		
+		//CRYPTAGE DU PWD.
+				String pwd_with_bcrypt = BCrypt.hashpw(request.getParameter("mdp"), BCrypt.gensalt());
+				
+
+				User user = new User(request.getParameter("nom"),request.getParameter("prenom"),request.getParameter("adresse"),
+					request.getParameter("telephone"),request.getParameter("email"),pwd_with_bcrypt);
+				/*
+				 * VERSION 1
+				 * User user = new User(); 
+				 * user.setNom(request.getParameter("nom"));
+				user.setPrenom(request.getParameter("prenom"));
+				user.setEmail(request.getParameter("email"));
+				user.setPwd(request.getParameter("pwd"));*/
+				
+				UserDao userDao = new UserDao();
+				// Variable d'instance == userDao
+				
+				//userDao.addUser(user);
+				
+				if (userDao.create(user)) {
+					System.out.println("bravo---------------gfh");
+					
+					response.sendRedirect("/LaCleanSneak/");
+					
+					//request.getRequestDispatcher("vue/index.jsp").forward(request, response);
+				} else {
+					System.out.println("KO KO");
+					
+					doGet(request, response);
+				}
+		
+	}
+}
+

@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3792518356.index
+\LaCleanSneak\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\577100077.index
+\LaCleanSneak\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1157387288.index
+\LaCleanSneak\src\main\java
+C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\481660623.index
+\LaCleanSneak\src\main\java
