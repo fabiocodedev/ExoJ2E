@@ -1,5 +1,0 @@
-<c:import url="header+footer/header.jsp"></c:import>
-
-<div>HELLO</div>
-
-<c:import url="header+footer/footer.jsp"></c:import>

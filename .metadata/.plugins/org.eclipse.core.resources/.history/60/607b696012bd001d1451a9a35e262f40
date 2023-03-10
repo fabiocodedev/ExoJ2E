@@ -1,3 +1,0 @@
-<c:import url="header+footer/header.jsp"></c:import>
-<img class="card mx-3 my-3 rounded"  alt="logo" src="resources/img/logo1.png">
-<c:import url="header+footer/footer.jsp"></c:import>
