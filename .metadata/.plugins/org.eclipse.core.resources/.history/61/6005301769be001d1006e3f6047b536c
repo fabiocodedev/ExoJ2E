@@ -1,1 +1,0 @@
-<img class="card mx-auto my-3"  alt="logo" src="resources/img/logo1.png">

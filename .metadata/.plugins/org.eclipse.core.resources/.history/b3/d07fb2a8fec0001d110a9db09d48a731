@@ -1,0 +1,31 @@
+package Dao;
+
+import java.util.ArrayList;
+
+public class DaoVehicule implements ICRUD<Vehicule> {
+
+	@Override
+	public Boolean create(Vehicule objet) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Vehicule> read() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(Vehicule objet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Vehicule objet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

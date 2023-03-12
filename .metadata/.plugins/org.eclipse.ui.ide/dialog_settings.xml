@@ -6,7 +6,12 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-			<item value="C:\Users\bourg\OneDrive\Bureau\WorkspaceJ2E\LaCleanSneak"/>
+			<item value="D:\Desktop\WorkspaceJEE\cda_j2e\cda_j2e"/>
+			<item value="D:\Desktop\WorkspaceJEE\cda_j2e\src"/>
+			<item value="D:\Desktop\WorkspaceJEE\cda_j2e"/>
+			<item value="D:\Desktop\WorkspaceJEE\LaCleanSneak"/>
 		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
 	</section>
 </section>

@@ -14,7 +14,8 @@
 	<url-pattern>/resources/*</url-pattern>
   </servlet-mapping>
     <jsp-config>
-    <!-- inclus dans tous les fichier .jsp le fait de pouvoir utiliser les tagib !!!!!!!!!!!!!!!  -->
+    <!-- Permet d'utiliser les tablib +  -->
+    <!-- inclus dans tous les fichier .jsp des taglib ci-dessous !!!!!!!!!!!!!!!  -->
         <jsp-property-group>
         <url-pattern> *.jsp </url-pattern>
         <include-prelude> /WEB-INF/jstlLib.jsp </include-prelude>
