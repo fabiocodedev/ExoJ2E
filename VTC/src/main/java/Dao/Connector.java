@@ -17,7 +17,7 @@ public class Connector {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			myConnection = DriverManager.getConnection(url+dbName,user,password);
-			System.out.println("Connection à la BDD OK !");
+			System.out.println("Connection a la BDD OK !");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Pas de connection a la BDD...");

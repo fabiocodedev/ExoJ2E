@@ -8,7 +8,7 @@ public interface ICRUD <T> {
 	
 	public ArrayList <T> read();
 	
-	public void update(T objet);
+	public boolean update(T objet);
 	
 	public void delete(T objet);
 	

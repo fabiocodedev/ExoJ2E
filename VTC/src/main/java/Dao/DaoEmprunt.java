@@ -3,30 +3,33 @@ package Dao;
 import java.sql.Connection;
 import java.util.ArrayList;
 
-public class DaoEmprunt implements ICRUD {
+import Model.Emprunt;
+
+public class DaoEmprunt implements ICRUD<Emprunt> {
 
 	Connection MyCo = Connector.getConnect();
 	
 	@Override
-	public Boolean create(Object objet) {
+	public Boolean create(Emprunt emprunt) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public ArrayList read() {
+	public ArrayList<Emprunt> read() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void update(Object objet) {
+	public boolean update(Emprunt emprunt) {
+		return false;
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void delete(Object objet) {
+	public void delete(Emprunt emprunt) {
 		// TODO Auto-generated method stub
 		
 	}
